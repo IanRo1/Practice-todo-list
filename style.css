@@ -1,0 +1,36 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+header{
+    font-size: 3em;
+}
+
+header, form{
+    min-height:30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(104, 104, 241), blue);
+}
+
+form input{
+    border:solid;
+}
+
+form input, form button{
+    padding:0.5em;
+    background:white;
+    display: flex;
+    border:solid;
+    border:none;
+}
+
+form button{
+    cursor: pointer;
+}
