@@ -16,7 +16,7 @@ header, form{
 }
 
 body{
-    background-image: linear-gradient(to left, rgb(104, 104, 241), blue);
+    background-image: white;
 }
 
 form input{
@@ -27,8 +27,14 @@ form input, form button{
     padding:0.5em;
     background:white;
     display: flex;
-    border:solid;
-    border:none;
+    justify-content: center;
+    align-items: center;
+    
+}
+form button{
+    border: solid;
+    display: flex;
+    margin: 4px;
 }
 
 form button{
