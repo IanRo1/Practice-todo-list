@@ -40,3 +40,23 @@ form button{
 form button{
     cursor: pointer;
 }
+
+.todo {
+    margin: 0.5rem;
+    background: white;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+  }
+
+  .todo li {
+    flex: 1;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
