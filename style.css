@@ -69,6 +69,7 @@ form button{
 
   .delete-button, .complete-btn {
       margin: 4px;
+      padding:4px;
   }
 
   .fall {

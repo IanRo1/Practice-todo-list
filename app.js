@@ -23,7 +23,7 @@ function addDiv(event){
   input.value = "";
   //create buttons
   const completedButton = document.createElement("button");
-  completedButton.innerHTML= '<button>add</button>';
+  completedButton.innerHTML = 'Complete';
   completedButton.classList.add("complete-btn");
   todoDiv.appendChild(completedButton);
   //Delete Button
@@ -44,4 +44,8 @@ function deleteCheck(e) {
     const td = item.parentElement;
     td.remove();
   }
-}
+
+  if (item.classList[0] === "complete-btn") {
+    const tdC = item.parentElement;
+    tdC.classList.toggle("completed");
+}}
