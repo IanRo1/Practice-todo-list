@@ -67,7 +67,7 @@ form button{
       min-width: 30%;
   }
 
-  .delete-button, .complete-button {
+  .delete-button, .complete-btn {
       margin: 4px;
   }
 
@@ -80,3 +80,5 @@ form button{
     text-decoration: line-through;
     opacity: 0.5;
   }
+
+ 
